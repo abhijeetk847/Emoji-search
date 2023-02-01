@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Itim&family=Unbounded:wght@300&display=swap");
+
+.container-row {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  height: 32px;
+  position: relative;
+  font-family: Itim;
+  cursor: pointer;
+}
+
+.container :hover {
+  background-color: #eee;
+}
+
+.container-row img {
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+}
+
+.title {
+  position: relative;
+  top: -8px;
+}
+
+.info {
+  float: right;
+  position: relative;
+  top: 8px;
+  right: 10px;
+  color: #ccc;
+  display: none;
+}
+
+/* .info:hover {
+  display: inline-block;
+} */
